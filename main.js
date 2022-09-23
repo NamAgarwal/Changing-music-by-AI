@@ -37,15 +37,6 @@ function draw(){
             song.play();
             document.getElementById("song_name").innerHTML = "Song name - Harry Potter Theme song"
         }
-    }else if(rightWrist_score > 0.2){
-        stroke('red');
-        fill('red');
-        circle(rightWristX , rightWristY , 20);
-        song.stop();
-        if(music2_status == false){
-            song2.play();
-            document.getElementById("song_name").innerHTML = "Peter Pan song"
-        }
     }
 }
 function modeLoaded(){
